@@ -31,5 +31,4 @@ class BishopBlackTest {
         assertThat(result).isEqualTo(expected);
 
     }
-
 }
