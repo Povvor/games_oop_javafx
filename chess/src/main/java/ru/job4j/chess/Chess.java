@@ -137,6 +137,7 @@ public final class Chess extends Application {
         add(new BishopBlack(Cell.F8), grid);
         add(new KnightBlack(Cell.G8), grid);
         add(new RookBlack(Cell.H8), grid);
+
     }
 
     public void buildWhiteTeam(Group grid) {
