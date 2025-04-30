@@ -24,7 +24,7 @@ public final class Logic {
         for (Cell cell : steps) {
             for (Figure figure : figures) {
                 if (figure.position().equals(cell)) {
-                    throw new OccupiedCellException();
+                    throw new OccupiedCellException("Way is occupied by other figure ");
                 }
             }
         }
